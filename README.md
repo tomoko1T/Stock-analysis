@@ -17,7 +17,7 @@ By chooing Single, it aimed to save memory consumption and support to run this s
 The advantage of refactoring code in general is making the program run efficiently.  The code could often be complex and difficult to be understood due to its complexity, so refactoring simplify the code and make the program run faster.  The disadvantage is although the goal of refactoring is not alternating the existing code, it may cause new bugs or errors by renaming variables and methods or moving code around.  The end result may not be positive while it takes the extra time and effort to work on refactoring ; the program run slower than the original.
 
 The advantage and disadvantages of the original and refactored VBA script are same as refactoring the code in general. In this analysis,  refactoring did help to have the original VBA script run faster.  Mainly by setting ticker Index to zero and selecting the data type, Single instead of Double.  
-The image on te left side is the elapsed time of the original script and the image on the right side is the one refactored.
+The image on the left side is the elapsed time of the original script and the image on the right side is the one refactored.
 Although there is the slight improvement in execution time, refactoring supported in this case analysis.  
 ![This is an image](https://github.com/tomoko1T/Stock-analysis/blob/main/Resouces/VBA_Challenge_2018_Original.png)
 ![This is an image](https://github.com/tomoko1T/Stock-analysis/blob/main/Resouces/VBA_Challenge_2018.png)
